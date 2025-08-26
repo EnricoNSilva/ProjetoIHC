@@ -32,9 +32,9 @@ A aplicação RevisaCar é um sistema de gestão de manutenção veicular voltad
 
 Perfil do usuário:
 
-Motorista particular → informações do veículo (modelo, ano, quilometragem, placa).
+Motorista particular -> informações do veículo (modelo, ano, quilometragem, placa).
 
-Gestor → dados de múltiplos veículos (caso tenha mais de um) e preferências de relatórios.
+Gestor -> dados de múltiplos veículos (caso tenha mais de um) e preferências de relatórios.
 
 Preferências de notificação: alerta por e-mail, SMS ou notificação no app.
 
@@ -69,27 +69,61 @@ Os requisitos de Roberto são simplicidade no acesso, visualização em formato 
 ![Mapa de empatia](empatia.png)
 
 - Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com serviço ou poduto.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação ao serviço ou poduto. Quais expectativas o usuário cria sobre o serviço ou poduto?
+- João Ferreira (*Persona Primária*)
+  - O que o usuário vê: João vê seu carro na garagem todos os dias, trânsito intenso no caminho para o trabalho, propagandas de concessionárias e oficinas oferecendo serviços de manutenção. Ele observa também notificações do banco sobre gastos inesperados quando precisa arrumar o carro.
+  - O que o usuário ouve: Comentários de amigos e colegas sobre experiências ruins com oficinas ou gastos altos com revisões atrasadas. Propagandas de rádio e internet sobre promoções de manutenção preventiva. Em casa, escuta a esposa preocupada com os custos do carro.
+  - O que o usuário diz e faz: Costuma dizer que “manutenção de carro é um gasto sem fim”. Quando lembra, pesquisa preços e prazos no Google ou pergunta para conhecidos. Anota algumas informações em papel ou no celular, mas raramente mantém isso organizado.
+  - O que o usuário pensa e sente: João sente ansiedade e frustração quando surge um problema inesperado. Pensa que poderia se organizar melhor, mas considera trabalhoso. Gostaria de ter um jeito prático de acompanhar o carro, como um “assistente digital” que lembrasse ele das revisões.
   Que tipo de serviço ou poduto mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o serviço ou poduto. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o serviço ou poduto satisfaz?
+  - Dores: Esquecer datas importantes de manutenção, gastar mais do que o planejado pela falta de controle e não confiar totalmente em oficinas
+  - Ganhos: Receber alertas antes de ter problemas, ter um historico centralizado para consultas rapidas e economia de dinheiro e tempo
+- Roberto Martins (*Persona Secundária*) 
+- O que o usuário vê: Roberto vê relatórios de custos da empresa, planilhas financeiras e gráficos de faturamento. Observa os carros da frota sendo usados diariamente pelos funcionários. Também vê mensagens de motoristas relatando problemas mecânicos ou solicitando manutenção.
+  - O que o usuário ouve: Conversas com motoristas reclamando de revisões caras. Conselhos de amigos empresários para manter controle rígido de gastos com veículos. Feedback da equipe administrativa cobrando previsões de custos.
+  - O que o usuário diz e faz: Costuma dizer: “preciso de números claros, não de detalhes técnicos”. Quando acessa o sistema, vai direto nos relatórios, dashboards ou resumos. Usa o RevisaCar esporadicamente, mas sempre para validar custos e confirmar se a manutenção está sendo feita.
+  - O que o usuário pensa e sente: Roberto sente-se responsável pela saúde financeira da empresa. Pensa que precisa ter confiança nos relatórios sem perder tempo. Não quer ser sobrecarregado com notificações, prefere informações consolidadas. Sente tranquilidade quando vê que tudo está sob controle.
+  Que tipo de serviço ou poduto mais agrada essa persona?
+  - Dores: Perder tempo com excesso de informação técnica, não conseguir prever custos futuros e dependência de motoristas para avisar sobre problemas
+  - Ganhos: Acesso a relatórios claros e exportáveis, controle macro dos custos da frota e poder tomar decisões rápidas sem depender de terceiros
 
 ## Contexto de uso
 
 - Descreva o ambiente em que o serviço ou poduto deve ser utilizado.
+  - O RevisaCar será usado principalmente em dispositivos móveis (smartphones), mas também em computadores via navegador. O ambiente de uso é cotidiano: em casa, no trabalho ou em trânsito. Para o motorista particular (persona primária), a utilização ocorre em momentos de organização pessoal, como antes de viajar ou após realizar uma manutenção. Para o gestor (persona secundária), o uso acontece em ambientes administrativos, como escritórios, com acesso a relatórios e dashboards.
 - Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
+  - O usuário primário (motorista particular) está inserido em um contexto social de classe média, buscando economia e segurança para a família. Culturalmente, está acostumado a usar aplicativos no dia a dia, mas nem sempre tem disciplina para registrar manualmente informações.
+O usuário secundário (gestor) está inserido em um ambiente empresarial, preocupado com custos e previsibilidade financeira. Seu contexto cultural valoriza relatórios, números e indicadores que auxiliem na tomada de decisão.
 - Quais informações sobre o ambiente, o serviço ou poduto deve guardar antes de iniciar a interação?
+  - Quilometragem atual do veículo.
+  - Data da última revisão realizada.
+  - Tipos de serviços de manutenção mais comuns (troca de óleo, pneus, freios, etc.).
+  - Custos relacionados a cada manutenção.
+  - Preferências de notificação (quando e como o usuário deseja ser alertado).
+  - Para gestores: agrupamento de veículos e relatórios comparativos.
 - O que normalmente deve estar acontecendo com o ambiente quando o usuário interagir com o serviço ou poduto?
+  - Motorista particular (primário): após sair da oficina, registrando uma manutenção, antes de viajar, conferindo se o carro está em dia, ou em casa, organizando as contas mensais.
+  - Gestor (secundário): no escritório, acessando o sistema para verificar relatórios de custos, validar previsões de manutenção e confirmar se os veículos da empresa estão em condições adequadas de uso.
 
 ## Jornada do usuário
 
 - Criar uma narrativa para o o seu serviço ou poduto com o usuário.
+  - *Resposta:* O motorista João, após ter um gasto inesperado com a troca de pneus, decide organizar melhor a manutenção do seu carro. Ele acessa o RevisaCar, cadastra seu veículo e começa a registrar manutenções já feitas. Com o tempo, ele passa a receber alertas de revisões futuras, consulta relatórios no dashboard e percebe maior controle sobre seus custos, evitando surpresas.
 - Determine o que o usuário realiza desde a primeira até o última interação com o serviço ou poduto.
+  - *Resposta:* O usuário cria uma conta -> cadastra o veículo -> registra a primeira manutenção -> consulta o dashboard -> recebe alertas de revisões -> realiza novas manutenções -> atualiza o histórico -> acompanha custos e relatórios -> exporta ou arquiva os dados quando troca de carro ou encerra o uso. 
   - Descreva o que acontece ou pode acontecer passo a passo
+    - Acessa o site ou app.
+    - Cria conta pessoal.
+    - Cadastra dados do veículo (modelo, ano, placa, quilometragem).
+    - Insere a primeira manutenção (troca de óleo, pneus, etc.).
+    - Visualiza o dashboard inicial com custos e status do veículo.
+    - Recebe alertas automáticos de próximas revisões.
+    - Registra novas manutenções conforme ocorrem.
+    - Consulta relatórios de gastos e histórico.
+    - Exporta ou arquiva informações quando necessário.
   - Como a tarefa começa? Como a tarefa se desenvolve? Como a tarefa termina?
+    - Começa: quando o usuário acessa o sistema pela primeira vez, cria uma conta e cadastra o veículo.
+    - Desenvolve-se: ao longo do uso, registrando manutenções, recebendo alertas e acompanhando o dashboard.
+    - Termina: quando o usuário encerra o ciclo de uso de um veículo, exportando o histórico ou arquivando os dados, ou quando troca de carro e cadastra um novo.
 
 ## Análise de concorrência
 
@@ -123,4 +157,5 @@ Os requisitos de Roberto são simplicidade no acesso, visualização em formato 
 <!-- TODOs:
 - Add exemplos
  -->
+
 
