@@ -134,6 +134,9 @@ O usuário secundário (gestor) está inserido em um ambiente empresarial, preoc
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
 
 ## Coleta de dados
+Entrevista - *Roteiro*: 
+Questionário - *Link do Form*
+Classificação de Cards - *Conteúdo de cada card*
 
 ## Modelo de tarefas
 
@@ -157,5 +160,6 @@ O usuário secundário (gestor) está inserido em um ambiente empresarial, preoc
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
