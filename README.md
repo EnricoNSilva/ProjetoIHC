@@ -134,9 +134,65 @@ O usuário secundário (gestor) está inserido em um ambiente empresarial, preoc
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
 
 ## Coleta de dados
-Entrevista - *Roteiro*: 
-Questionário - *Link do Form*
-Classificação de Cards - *Conteúdo de cada card*
+Entrevista – Roteiro
+
+Objetivo: entender hábitos, dificuldades e expectativas dos usuários em relação à manutenção de veículos.
+
+Perguntas:
+
+1- Você costuma anotar as manutenções do seu veículo? Se sim, como faz isso hoje (papel, celular, memória, aplicativo)?
+
+2- Qual foi a última manutenção que você esqueceu de fazer ou atrasou? O que aconteceu?
+
+3- Quais são os maiores desafios que você encontra em manter o veículo em boas condições?
+
+4- Se pudesse ter um “assistente pessoal de manutenção”, o que ele deveria fazer por você?
+
+5- Que tipo de alerta seria mais útil: por quilometragem, por tempo (data) ou ambos?
+
+6- Você gostaria de visualizar os custos de manutenção ao longo do tempo? De que forma (gráficos, tabelas, relatórios)?
+
+7- Você já deixou de realizar uma revisão por não saber o custo que teria?
+
+8- O que seria mais importante para você: simplicidade (poucas funções) ou detalhamento (mais informações e relatórios)?
+
+9- Quais informações você gostaria de guardar sobre o seu veículo dentro do aplicativo (ex.: placa, quilometragem, peças trocadas, oficina utilizada)?
+
+10- Como você gostaria de ser lembrado das revisões? (notificação no celular, e-mail, SMS).
+
+Questionário - [*Link do Form*](https://docs.google.com/forms/d/e/1FAIpQLSfn8klu8jtcZLnN_qyuM_K82WQlvd3yWMvI7sS5PJsxn4kkBw/viewform?usp=sharing&ouid=113693622296915453124)
+
+Classificação de Cartões – Conteúdo de cada card
+
+Objetivo: organizar a interface da aplicação de acordo com a lógica do usuário. Cada cartão representa uma funcionalidade ou elemento da interface que o usuário deve agrupar.
+
+Cartões:
+
+
+Cadastro de usuário
+
+Cadastro de veículo
+
+Registro de manutenção
+
+Dashboard de custos
+
+Histórico de serviços
+
+Alertas de revisão
+
+Relatórios exportáveis (PDF/CSV)
+
+Configurações de notificações
+
+Perfil do usuário
+
+Preferências de alerta (quilometragem, tempo, ambos)
+
+Relatórios gerenciais (para múltiplos veículos)
+
+Ajuda/Suporte
+
 
 ## Modelo de tarefas
 
@@ -160,6 +216,7 @@ Classificação de Cards - *Conteúdo de cada card*
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
