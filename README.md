@@ -204,7 +204,7 @@ Ajuda/Suporte
 
 ### Prototipação em baixo nível (papel)
 ### Dashboard
-![Dashboard](./img/dashboards.jpg)
+![Dashboard](./img/Dashboards.jpg)
 ### Registro de Veículo
 ![Manutenção](./img/RegVeiculo.jpg)
 ### Registro de Manutenção
@@ -222,6 +222,7 @@ Ajuda/Suporte
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
