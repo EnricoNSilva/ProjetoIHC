@@ -203,6 +203,12 @@ Ajuda/Suporte
 - Discuta o papel das expectativas do usuário no projeto deste serviço ou poduto. Qual a importância e pontos a serem considerados se você quiser vender esse serviço ou poduto?
 
 ### Prototipação em baixo nível (papel)
+### Dashboard
+![Dashboard](./img/dashboards.jpg)
+### Registro de Veículo
+![Manutenção](./img/RegVeiculo.jpg)
+### Registro de Manutenção
+![Veículo](./img/RegManutencao.jpg)
 #### Avaliação heurística
 
 ### Prtotipação em médio nível (Figma)
@@ -216,6 +222,7 @@ Ajuda/Suporte
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
