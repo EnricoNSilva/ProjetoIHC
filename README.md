@@ -140,25 +140,25 @@ Objetivo: entender hábitos, dificuldades e expectativas dos usuários em relaç
 
 Perguntas:
 
-1- Você costuma anotar as manutenções do seu veículo? Se sim, como faz isso hoje (papel, celular, memória, aplicativo)?
+1- Como você costuma acompanhar ou lembrar das manutenções do seu veículo no dia a dia?
 
-2- Qual foi a última manutenção que você esqueceu de fazer ou atrasou? O que aconteceu?
+2- Me conte sobre uma vez em que você esqueceu ou atrasou uma manutenção. O que aconteceu nessa situação?
 
-3- Quais são os maiores desafios que você encontra em manter o veículo em boas condições?
+3- Quais são as principais dificuldades ou preocupações que você enfrenta quando pensa em manter o veículo em boas condições?
 
-4- Se pudesse ter um “assistente pessoal de manutenção”, o que ele deveria fazer por você?
+4- Imagine que você tivesse um “assistente de manutenção” sempre disponível. O que você gostaria que ele fizesse por você?
 
-5- Que tipo de alerta seria mais útil: por quilometragem, por tempo (data) ou ambos?
+5- Quando se trata de revisões, como você acredita que seria mais útil ser lembrado?
 
-6- Você gostaria de visualizar os custos de manutenção ao longo do tempo? De que forma (gráficos, tabelas, relatórios)?
+6- Se você pudesse acompanhar os custos de manutenção ao longo do tempo, de que forma isso faria sentido para você?
 
-7- Você já deixou de realizar uma revisão por não saber o custo que teria?
+7- Você já deixou de fazer alguma revisão por causa de incerteza em relação ao custo? Pode me contar como foi?
 
-8- O que seria mais importante para você: simplicidade (poucas funções) ou detalhamento (mais informações e relatórios)?
+8- Quando pensa em um aplicativo desse tipo, você gostaria mais de algo simples ou algo mais detalhado? Por quê?
 
-9- Quais informações você gostaria de guardar sobre o seu veículo dentro do aplicativo (ex.: placa, quilometragem, peças trocadas, oficina utilizada)?
+9- Que informações sobre o seu veículo você considera importantes de guardar em um aplicativo?
 
-10- Como você gostaria de ser lembrado das revisões? (notificação no celular, e-mail, SMS).
+10- De que forma você gostaria de ser lembrado das revisões, considerando sua rotina e o que funciona melhor para você?
 
 Questionário - [*Link do Form*](https://docs.google.com/forms/d/e/1FAIpQLSfn8klu8jtcZLnN_qyuM_K82WQlvd3yWMvI7sS5PJsxn4kkBw/viewform?usp=sharing&ouid=113693622296915453124)
 
@@ -216,6 +216,7 @@ Ajuda/Suporte
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
