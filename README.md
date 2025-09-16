@@ -205,8 +205,10 @@ Ajuda/Suporte
 ### Prototipação em baixo nível (papel)
 ### Dashboard
 ![Dashboard](./img/Dashboards.jpg)
-### Registro de Veículo
-![Manutenção](./img/RegVeiculo.jpg)
+### Registro de Veículo - Persona 1 - Carros pessoais, Poucas quantidades
+![RegistroDeCarrosP1](./img/RegVeiculoPersona1.jpg)
+### Registro de Veículo - Persona 2 - Frotas, Grandes quantidades de carro
+![RegistroDeCarrosP2](./img/RegVeiculo.jpg)
 ### Registro de Manutenção
 ![Veículo](./img/RegManutencao.jpg)
 #### Avaliação heurística
@@ -222,6 +224,7 @@ Ajuda/Suporte
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
