@@ -193,6 +193,116 @@ Relatórios gerenciais (para múltiplos veículos)
 
 Ajuda/Suporte
 
+## HTA — Tela Dashboard (João e Roberto)
+
+Objetivo geral: Consultar informações e tomar decisões rápidas sobre o veículo ou frota.
+
+Persona Primária (João — motorista particular)
+
+Consultar estado do veículo
+
+Visualizar informações gerais
+ 1.1 Ver quilometragem atual
+ 1.2 Ver próximas revisões
+ 1.3 Ver alertas críticos
+
+Acompanhar custos
+ 2.1 Ver total gasto nos últimos meses
+ 2.2 Comparar custo atual com anterior
+
+Ver histórico rápido
+ 3.1 Visualizar últimas manutenções
+ 3.2 Acessar histórico completo
+
+Executar ações rápidas
+ 4.1 Registrar nova manutenção (+)
+ 4.2 Exportar relatório simples
+ 4.3 Configurar notificações
+
+Persona Secundária (Roberto — gestor de frota)
+
+Avaliar estado da frota
+
+Visualizar indicadores
+ 1.1 Ver gasto total do período
+ 1.2 Identificar veículos com revisões atrasadas
+ 1.3 Ver custo médio por veículo
+
+Filtrar veículos
+ 2.1 Selecionar veículo específico
+ 2.2 Definir período de análise
+ 2.3 Atualizar tabela
+
+Analisar lista de veículos
+ 3.1 Conferir km e próximas revisões
+ 3.2 Destacar veículos em atraso
+
+Executar ações gerenciais
+ 4.1 Enviar alertas para motoristas
+ 4.2 Exportar relatório detalhado
+ 4.3 Abrir histórico de um veículo
+ 
+## GOMS — Tela Registro de Manutenção (João e Roberto)
+
+GOAL 0: Registrar manutenção do veículo ou frota.
+
+Persona Primária (João — motorista particular)
+
+METHOD A: Registro rápido (seleção mínima).
+
+OP 1: Tocar no botão “+”
+
+OP 2: Selecionar tipo de serviço (óleo, pneus, etc.)
+
+OP 3: Digitar quilometragem atual
+
+OP 4: Digitar custo aproximado
+
+OP 5: Pressionar “Salvar”
+
+OP 6: Visualizar confirmação
+
+METHOD B: Registro detalhado (quando deseja guardar mais dados).
+
+OP 1: Abrir formulário completo
+
+OP 2: Inserir data, tipo de serviço, oficina
+
+OP 3: Anexar foto ou nota fiscal
+
+OP 4: Salvar
+
+SELECTION RULE: Se João estiver com pressa → usar Método A.
+Se quiser histórico mais completo → usar Método B.
+
+Persona Secundária (Roberto — gestor de frota)
+
+METHOD A: Registro formal (detalhado para controle financeiro).
+
+OP 1: Selecionar veículo por placa
+
+OP 2: Preencher tipo de serviço + categoria
+
+OP 3: Digitar data, km e custo
+
+OP 4: Adicionar centro de custo
+
+OP 5: Anexar nota fiscal
+
+OP 6: Salvar
+
+METHOD B: Registro múltiplo (importação ou lançamento em lote).
+
+OP 1: Acessar tela de importação
+
+OP 2: Subir planilha CSV/PDF
+
+OP 3: Conferir dados e confirmar
+
+OP 4: Registrar em lote
+
+SELECTION RULE: Se for uma manutenção individual → Método A.
+Se for lançar várias manutenções de uma vez → Método B.
 
 ## Modelo de tarefas
 
@@ -224,6 +334,7 @@ Ajuda/Suporte
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
