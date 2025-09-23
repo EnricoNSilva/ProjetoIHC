@@ -249,52 +249,88 @@ GOAL 1: Registrar manutenção do veículo ou frota.
 GOAL 1.1: Registrar manutenção como motorista particular (João).
 
 METHOD 1.1.A: Registro rápido (seleção mínima).
+
 (SEL.RULE: Se João estiver com pressa).
 OP. 1.1.A.1: Deslocar o cursor para o botão “+”.
+
 OP. 1.1.A.2: Clicar no botão “+”.
+
 OP. 1.1.A.3: Clicar no campo “tipo de serviço”.
+
 OP. 1.1.A.4: Selecionar o tipo de serviço da lista (óleo, pneus, etc.).
+
 OP. 1.1.A.5: Deslocar o cursor para o campo “quilometragem”.
+
 OP. 1.1.A.6: Digitar a quilometragem atual.
+
 OP. 1.1.A.7: Deslocar o cursor para o campo “custo”.
+
 OP. 1.1.A.8: Digitar o custo aproximado.
+
 OP. 1.1.A.9: Deslocar o cursor para o botão “Salvar”.
+
 OP. 1.1.A.10: Clicar no botão “Salvar”.
+
 GOAL 1.1.A.11: Visualizar confirmação.
+
 OP. 1.1.A.11.1: Examinar a tela para a mensagem de sucesso.
 
 METHOD 1.1.B: Registro detalhado (quando deseja guardar mais dados).
 (SEL.RULE: Se quiser histórico mais completo).
+
 OP. 1.1.B.1: Deslocar o cursor para o botão/link “Registro Detalhado”.
+
 OP. 1.1.B.2: Clicar para abrir o formulário completo.
+
 OP. 1.1.B.3: Preencher campo “data”, “tipo de serviço” e “oficina”.
+
 OP. 1.1.B.4: Clicar no botão “Anexar arquivo”.
+
 OP. 1.1.B.5: Selecionar foto ou nota fiscal no dispositivo.
+
 OP. 1.1.B.6: Deslocar o cursor para o botão “Salvar”.
+
 OP. 1.1.B.7: Clicar no botão “Salvar”.
 
 GOAL 1.2: Registrar manutenção como gestor de frota (Roberto).
 
 METHOD 1.2.A: Registro formal (detalhado para controle financeiro).
 (SEL.RULE: Se for uma manutenção individual).
+
 OP. 1.2.A.1: Deslocar o cursor para o campo “Selecionar veículo”.
+
 OP. 1.2.A.2: Digitar ou selecionar a placa do veículo.
+
 OP. 1.2.A.3: Preencher os campos “tipo de serviço” e “categoria”.
+
 OP. 1.2.A.4: Digitar “data”, “km” e “custo”.
+
 OP. 1.2.A.5: Preencher o campo “centro de custo”.
+
 OP. 1.2.A.6: Clicar para “Anexar nota fiscal”.
+
 OP. 1.2.A.7: Selecionar o arquivo da nota fiscal.
+
 OP. 1.2.A.8: Clicar em “Salvar”.
 
 METHOD 1.2.B: Registro múltiplo (importação ou lançamento em lote).
+
 (SEL.RULE: Se for lançar várias manutenções de uma vez).
+
 OP. 1.2.B.1: Deslocar o cursor para o menu/botão “Importação”.
+
 OP. 1.2.B.2: Clicar para acessar a tela de importação.
+
 OP. 1.2.B.3: Clicar no botão “Subir arquivo”.
+
 OP. 1.2.B.4: Selecionar a planilha CSV/PDF do dispositivo.
+
 GOAL 1.2.B.5: Conferir dados e confirmar.
+
 OP. 1.2.B.5.1: Examinar a pré-visualização dos dados importados na tela.
+
 OP. 1.2.B.5.2: Deslocar o cursor para o botão “Confirmar Importação”.
+
 OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em lote.
 
 ## Modelo de tarefas
@@ -327,6 +363,7 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
