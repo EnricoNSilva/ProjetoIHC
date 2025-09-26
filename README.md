@@ -199,48 +199,10 @@ Objetivo geral: Consultar informações e tomar decisões rápidas sobre o veíc
 
 Persona Primária (João — motorista particular)
 
-Consultar estado do veículo
-
-Visualizar informações gerais
- 1.1 Ver quilometragem atual
- 1.2 Ver próximas revisões
- 1.3 Ver alertas críticos
-
-Acompanhar custos
- 2.1 Ver total gasto nos últimos meses
- 2.2 Comparar custo atual com anterior
-
-Ver histórico rápido
- 3.1 Visualizar últimas manutenções
- 3.2 Acessar histórico completo
-
-Executar ações rápidas
- 4.1 Registrar nova manutenção (+)
- 4.2 Exportar relatório simples
- 4.3 Configurar notificações
-
+![HTA - Persona primário](./img/HTA%20Persona%201.jpg)
 Persona Secundária (Roberto — gestor de frota)
 
-Avaliar estado da frota
-
-Visualizar indicadores
- 1.1 Ver gasto total do período
- 1.2 Identificar veículos com revisões atrasadas
- 1.3 Ver custo médio por veículo
-
-Filtrar veículos
- 2.1 Selecionar veículo específico
- 2.2 Definir período de análise
- 2.3 Atualizar tabela
-
-Analisar lista de veículos
- 3.1 Conferir km e próximas revisões
- 3.2 Destacar veículos em atraso
-
-Executar ações gerenciais
- 4.1 Enviar alertas para motoristas
- 4.2 Exportar relatório detalhado
- 4.3 Abrir histórico de um veículo
+![HTA - Persona secundário](./img/HTA%20Persona%202.jpg)
  
 ## GOMS — Tela Registro de Manutenção (João e Roberto)
 
@@ -363,6 +325,7 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
