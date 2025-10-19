@@ -295,9 +295,21 @@ OP. 1.2.B.5.2: Deslocar o cursor para o botão “Confirmar Importação”.
 
 OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em lote.
 
-## Modelo de tarefas
+### Prototipação MOLIC
+### Persona 1 - Dashboard
+<img src="./img/img/DashboardP1.jpg" alt="MOLIC Dashboard Persona 1" height="500">
 
-## Design
+### Persona 1 - Registro de Nova Manutenção
+<img src="./img/img/RegistroNovaManutencaoP1.jpg" alt="MOLIC Registro de Nova Manutenção Persona 1" height="500">
+
+### Persona 2 - Dashboard
+<img src="./img/img/DashboardP2.jpg" alt="MOLIC Dashboard Persona 2" height="500">
+
+### Persona 2 - Registro de Novo Veículo
+<img src="./img/img/RegistroNovoVeículoP2.jpg" alt="MOLIC Registro de Novo Veículo Persona 2" height="500">
+### Modelo de tarefas
+
+### Design
 
 - Pense nas características de Affordances do seu serviço ou poduto. 
     - Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
@@ -325,6 +337,7 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 <!-- TODOs:
 - Add exemplos
  -->
+
 
 
 
