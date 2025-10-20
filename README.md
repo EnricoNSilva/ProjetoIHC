@@ -199,10 +199,10 @@ Objetivo geral: Consultar informações e tomar decisões rápidas sobre o veíc
 
 Persona Primária (João — motorista particular)
 
-![HTA - Persona primário](./img/HTA%20Persona%201.jpg)
+![HTA - Persona primário](./img/HTA//HTA%20Persona%201.jpg)
 Persona Secundária (Roberto — gestor de frota)
 
-![HTA - Persona secundário](./img/HTA%20Persona%202.jpg)
+![HTA - Persona secundário](./img/HTA/HTA%20Persona%202.jpg)
  
 ## GOMS — Tela Registro de Manutenção (João e Roberto)
 
@@ -297,16 +297,17 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 
 ### Prototipação MOLIC
 ### Persona 1 - Dashboard
-<img src="./img/img/DashboardP1.jpg" alt="MOLIC Dashboard Persona 1" height="500">
+<img src="./img/Molic/DashboardP1.jpg" alt="MOLIC Dashboard Persona 1" height="400">
 
 ### Persona 1 - Registro de Nova Manutenção
-<img src="./img/img/RegistroNovaManutencaoP1.jpg" alt="MOLIC Registro de Nova Manutenção Persona 1" height="500">
+<img src="./img/Molic/RegistroNovaManutencaoP1.jpg" alt="MOLIC Registro de Nova Manutenção Persona 1" height="400">
 
 ### Persona 2 - Dashboard
-<img src="./img/img/DashboardP2.jpg" alt="MOLIC Dashboard Persona 2" height="500">
+<img src="./img/Molic/DashboardP2.jpg" alt="MOLIC Dashboard Persona 2" height="400">
 
 ### Persona 2 - Registro de Novo Veículo
-<img src="./img/img/RegistroNovoVeículoP2.jpg" alt="MOLIC Registro de Novo Veículo Persona 2" height="500">
+<img src="./img/Molic/RegistroNovoVeículoP2.jpg" alt="MOLIC Registro de Novo Veículo Persona 2" height="400">
+
 ### Modelo de tarefas
 
 ### Design
@@ -317,13 +318,13 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 
 ### Prototipação em baixo nível (papel)
 ### Dashboard
-![Dashboard](./img/Dashboards.jpg)
+![Dashboard](./img/PrototipacaoBaixoNivel/DashboardP1.jpg)
 ### Registro de Veículo - Persona 1 - Carros pessoais, Poucas quantidades
-![RegistroDeCarrosP1](./img/RegVeiculoPersona1.jpg)
+![RegistroDeCarrosP1](./img/PrototipacaoBaixoNivel/CadastroVeiculoP1.jpg)
 ### Registro de Veículo - Persona 2 - Frotas, Grandes quantidades de carro
-![RegistroDeCarrosP2](./img/RegVeiculo.jpg)
+![RegistroDeCarrosP2](./img/PrototipacaoBaixoNivel/CadastroVeiculoP2.jpg)
 ### Registro de Manutenção
-![Veículo](./img/RegManutencao.jpg)
+![Veículo](./img/PrototipacaoBaixoNivel//RegManutencao.jpg)
 #### Avaliação heurística
 
 ### Prtotipação em médio nível (Figma)
