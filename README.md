@@ -199,10 +199,10 @@ Objetivo geral: Consultar informações e tomar decisões rápidas sobre o veíc
 
 Persona Primária (João — motorista particular)
 
-![HTA - Persona primário](./img/HTA//HTA%20Persona%201.jpg)
+![HTA - Persona primário](./img/HTA//HTAPersona1.jpg)
 Persona Secundária (Roberto — gestor de frota)
 
-![HTA - Persona secundário](./img/HTA/HTA%20Persona%202.jpg)
+![HTA - Persona secundário](./img/HTA/HTAPersona2.jpg)
  
 ## GOMS — Tela Registro de Manutenção (João e Roberto)
 
