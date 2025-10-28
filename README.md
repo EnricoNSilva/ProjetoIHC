@@ -318,7 +318,7 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 
 ### Prototipação em baixo nível (papel)
 ### Dashboard
-![Dashboard](./img/PrototipacaoBaixoNivel/DashboardP1.jpg)
+![Dashboard](./img/PrototipacaoBaixoNivel/DashBoardP1.jpg)
 ### Registro de Veículo - Persona 1 - Carros pessoais, Poucas quantidades
 ![RegistroDeCarrosP1](./img/PrototipacaoBaixoNivel/CadastroVeiculoP1.jpg)
 ### Registro de Veículo - Persona 2 - Frotas, Grandes quantidades de carro
