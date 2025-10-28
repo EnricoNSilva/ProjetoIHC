@@ -328,7 +328,8 @@ OP. 1.2.B.5.3: Clicar no botão “Confirmar Importação” para registrar em l
 #### Avaliação heurística
 
 ### Prtotipação em médio nível (Figma)
-#### Avaliação heurística
+Link: <https://mouse-high-89116254.figma.site/>
+#### Avaliação heurística: **[Avaliação Heurística da Prototipação de Médio Nível (Figma)](./docs/AvaliacaoCauanFigma.pdf)**.
 
 ### Prtotipação em alto nível (React)
 #### Avaliação heurística
